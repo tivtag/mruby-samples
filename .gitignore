@@ -10,3 +10,12 @@
 *.lai
 *.la
 *.a
+
+# Directories
+bin
+build
+mruby
+
+# VIM
+*.*~
+*.swp

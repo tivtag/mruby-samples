@@ -1,6 +1,6 @@
 #!/bin/bash
 conf=debug
-proj=mruby-test
+proj=mruby-sample-1
 
 # gen make files
 premake4 gmake
@@ -11,5 +11,3 @@ make -C build config=$conf $proj
 # start
 bin/$conf/$proj
 
-# note
-# chmod 775 build.sh

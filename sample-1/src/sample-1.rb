@@ -1,4 +1,4 @@
-puts "meow from C++ empedded ruby! #{$my_global}"
+puts "Meow from mruby! #{$my_global}"
 
 def inc_global
   puts 'inc_global() called'

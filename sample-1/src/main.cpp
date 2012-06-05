@@ -19,7 +19,11 @@ int main()
    }
    
    std::string code((std::istreambuf_iterator<char>(ifs)), std::istreambuf_iterator<char>());
-   std::cout << code << std::endl;  
+
+   // Debug output code
+   std::cout << std::endl
+             << "Nya from C++! The ruby code is: " << std::endl << std::endl
+             << code << std::endl;  
 
    // Start mrb
    mrb_state* mrb = mrb_open();

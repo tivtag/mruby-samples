@@ -2,7 +2,7 @@ solution "mruby-test"
   configurations {"Release", "Debug"}
   location "build"
 
-project "mruby-test"
+project "mruby-sample-1"
   language "C++"
   kind     "ConsoleApp"
   flags    {"ExtraWarnings"}
@@ -11,9 +11,9 @@ project "mruby-test"
       "src/main.cpp"
   }
 
-  links { "mruby"}
-  libdirs { "../../../Ruby/mruby/lib/" }
-  includedirs { "../../../Ruby/mruby/include/" }
+  links        { "mruby"}
+  libdirs      { "../dependencies/mruby/lib/" }
+  includedirs  { "../dependencies/mruby/include/" }
   buildoptions {"-std=gnu++0x"}
   
   configuration "Release"
