@@ -1,7 +1,7 @@
 mruby-samples
 =============
 
-Sample Code for hosting Ruby within C++ via mruby
+Sample Code for hosting Ruby within C++ via mruby. 
 Plus it shows how to setup Premake4 as a build system.
 
 ## Required
