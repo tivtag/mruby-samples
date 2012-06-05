@@ -15,4 +15,4 @@ Plus it shows how to setup Premake4 as a build config system.
 2. Download/Clone mruby into /dependencies/
 3. cd to sample-1
 4. give read+write permissions by calling: chmod 775 build.sh
-5. compile and run in one go by calling: ./Build.sh
+5. compile and run in one go by calling: ./build.sh
