@@ -14,8 +14,8 @@ int main()
    
    if(!ifs)
    {
-       std::cout << "ruby input file not found " << std::endl;
-       return -1;
+      std::cout << "ruby input file not found " << std::endl;
+      return -1;
    }
    
    std::string code((std::istreambuf_iterator<char>(ifs)), std::istreambuf_iterator<char>());
