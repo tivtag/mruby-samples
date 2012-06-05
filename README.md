@@ -10,7 +10,7 @@ Plus it shows how to setup Premake4 as a build system.
 
 ## How to Compile and Run
 
-Linux:
+### Linux
 1. Install premake4
 2. Download/Clone mruby into /dependencies/
 3. cd to sample-1
